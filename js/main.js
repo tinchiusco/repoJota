@@ -25,7 +25,7 @@ function renderMenuOptions (){
     const menus = document.getElementById('menus');
 
     // AGREGO FETCH CON RUTA RELATIVA
-    fetch('/stock.json')
+    fetch('./stock.json')
     .then((response) => response.json())
     .then((options) => { 
 
@@ -89,7 +89,7 @@ function renderMenuOptions (){
 
 // AGREGAR AL CARRITO //
 function addMenuToReserve(id){  
-    fetch('/stock.json')
+    fetch('./stock.json')
     .then((response) => response.json())
     .then((menuOptions) => { 
     let menu = menuOptions.find(menu => menu.id === id);
@@ -170,7 +170,7 @@ function resetReserve(){
 
 //====== PRINTS =================
 function printCounter(id, quant){
-    fetch('/stock.json')
+    fetch('./stock.json')
     .then((response) => response.json())
     .then(() => { 
     let menuInReserve = reserve.find(menu => menu.id === id);
