@@ -2,7 +2,7 @@
     {
         "id":1,
         "menuName": "Pizza",
-        "img": "./img/pizza.jpeg",
+        "img": "/img/pizza.jpeg",
         "description": "Una pizza grande a elección. Una bebida a elección (refresco, limonada, cerveza o copa de vino). Postre o café",
         "price": 300,
         "quant": 0,
@@ -11,7 +11,7 @@
     {
         "id":2,
         "menuName": "Pasta",
-        "img": "./img/pasta.jpeg",
+        "img": "/img/pasta.jpeg",
         "description": "Un plato de pasta a elección. Una bebida a elección (refresco, limonada, cerveza o copa de vino). Postre o café",
         "price": 450,
         "quant": 0,
@@ -20,7 +20,7 @@
     {
         "id":3,
         "menuName": "Parrilla",
-        "img": "./img/parrilla.jpg",
+        "img": "/img/parrilla.jpg",
         "description": "Un corte de carne a elección. Una bebida a elección (refresco, limonada, cerveza o copa de vino). Postre o café",
         "price": 600,
         "quant": 0,
@@ -29,7 +29,7 @@
     {
         "id":4,
         "menuName": "A la carta",
-        "img": "./img/ilustracionmenu.svg",
+        "img": "/img/ilustracionmenu.svg",
         "description": "Elegirás tu comida, tu bebida y si deseas postre en el restaurante. El importe de la reserva se descontará del total de la cuenta",
         "price": 100,
         "quant": 0,
